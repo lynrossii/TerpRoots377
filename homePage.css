@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C9C9C9;
+    color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #63A7E5;
+    color: white;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+#logo {
+  margin-top: 60px;
+}
+
+#Logo{
+  float: right;
+}
+
+#signOut {
+  float: right;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  display:inline-flex;
+  margin-top: -140px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 60px;
+  text-align: center;
+  margin-top: 250px;
+  width: 150px;
+  height: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  background-color: #E21836;
+  color: black;
+}
+
+.card:hover {
+  background-color: #840B0B;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .row {
+    width: 100%;
+    display: grid;
+    margin-bottom: 20px;
+  }
+}
+
+#text {
+  margin-top: 75px;
+}
+
+#text2 {
+  margin-top: 75px;
+padding-left: -8px;
+}

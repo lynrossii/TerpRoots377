@@ -1,0 +1,30 @@
+body {
+  background-color: #DDDDDD;
+}
+
+#text{
+  margin-top: 50px;
+  font: 50px Arial, Helvetica, sans-serif;
+}
+
+.joinNow {
+  background-color: #63A7E5;
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 40%;
+  margin-top: 125px;
+}
+
+.joinNow:hover {
+  background-color: #1077C4;
+  opacity: 1;
+}

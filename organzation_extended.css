@@ -1,0 +1,132 @@
+#logo {
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-top: 200px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.7); /* this adds the "card" effect */
+}
+
+#signOut {
+  float: right;
+}
+
+#pageTitle {
+  background-color: #E21836;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  width: 100%;
+  position: fixed; /* Set the navbar to fixed position */
+  padding: 50px;
+}
+
+body {
+  background-color: white;
+}
+
+#yellowUnderline {
+  background-color: #DAA520;
+  padding: 5px;
+  margin-top: 152px;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%;
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C9C9C9;
+    color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #63A7E5;
+    color: white;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+#org_type {
+  margin-top: 200px;
+  padding: 5px;
+  width: 55%;
+  overflow: auto;
+  background-color: #C9C9C9;
+  position: relative;
+  float: right;
+  text-align: left;
+  margin-right: 210px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+  font-size: 18px;
+}
+
+#org_mission {
+  margin-top: -140px;
+  padding: 5px;
+  width: 55%;
+  word-wrap: break-word;
+  background-color: #C9C9C9;
+  position: relative;
+  float: right;
+  text-align: left;
+  margin-right: 210px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#org_description {
+  margin-top: -250px;
+  padding: 5px;
+  width: 55%;
+  background-color: #C9C9C9;
+  position: relative;
+  float: right;
+  text-align: left;
+  margin-right: 210px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+#org_contact {
+  margin-top: -3px;
+  padding: 5px;
+  width: 55%;
+  background-color: #C9C9C9;
+  position: relative;
+  float: right;
+  text-align: left;
+  margin-right: 210px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
