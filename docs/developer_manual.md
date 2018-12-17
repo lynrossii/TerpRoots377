@@ -118,10 +118,15 @@ MAMP or AMMPS: this server is necessary to run PHP in your browser and establish
 Database is comprised of 6 tables:
 
 Events: Used to store the information about various events hosted by organizations.
+
 Events_Attending: Currently unused. 
+
 Memberships: Currently unused.
+
 Organizations: Used to store the information about various campus organizations.
+
 Org_Event_Link: Join table with many to many relationship that shows what events are being hosted by an organization by their unique identification numbers.
+
 User_Accounts: Used to store the created accounts of application users; populates as accounts are created.
 
 
